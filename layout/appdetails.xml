@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9B0"
+    tools:context=".appdetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment details"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:id="@+id/txt1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOwnerName"
+        android:textSize="23dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/txt1"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="Owner Name  : "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPetName"
+        android:textSize="23dp"
+        android:paddingTop="45dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/txt1"
+        android:textColor="@color/black"
+        android:layout_alignTop="@id/txtOwnerName"
+        android:layout_marginTop="20dp"
+        android:text="Pet Name       : "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:textSize="23dp"
+        android:paddingTop="110dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/txt1"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="Date                 : "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:textSize="23dp"
+        android:paddingTop="155dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/txt1"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="Time                : "
+        />
+
+    <ImageButton
+        android:id="@+id/btn13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="620dp"
+        android:contentDescription="Back key"
+        android:src="@drawable/arr" />
+
+</RelativeLayout>

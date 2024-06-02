@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EEC3"
+    tools:context=".Groomings">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Petco.com"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/grooming" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="Welcome to 🐾Petco.com🐾"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text=" 🐶🐱🐥Your puppy can enjoy all our grooming salon services! We offer a puppy shampoo specifically formulated for a gentle cleanse on your puppy's skin and coat, and all our shampoos are safe for puppies 12 weeks and olde🐾 "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:text=" 🐶🐱 Every grooming service, brand and product that has the Clean Ingredients badge has been certified by the manufacturer to be made without the parabens, phthalates and chemical dyes🐾 "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Appoinment"
+        android:width="300dp"
+        android:layout_marginTop="650dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:id="@+id/addapppoinment"
+        />
+
+
+</RelativeLayout>

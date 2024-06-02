@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AppointmentAdapter">
+
+    <TextView
+        android:id="@+id/ownerNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner Name"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/petNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Pet Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/ownerNameTextView"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/dateTextView"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/contactTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/timeTextView"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

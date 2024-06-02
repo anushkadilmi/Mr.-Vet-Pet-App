@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9B0"
+    tools:context=".MyAppoinments">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Appointments"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:id="@+id/txt1"
+        />
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/baseline_add_circle_24" />
+    <LinearLayout
+        android:id="@+id/appointmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add new TextViews programmatically for each pet -->
+        <!-- Example: android:id="@+id/petDetailsTextView1" -->
+        <!-- Example: android:id="@+id/petDetailsTextView2" -->
+        <!-- ... -->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9B0"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyAppoinmentss">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="200dp"
+        android:horizontalSpacing="100dp"
+        android:padding="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+</RelativeLayout>
