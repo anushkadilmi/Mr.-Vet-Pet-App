@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MRVETPETAPP</string>
+
+
+
+        //Headings
+        <string name="Heading1">Pedigree</string>
+        <string name="Heading2">Happy Dog</string>
+        <string name="Heading3">Hi Doggy</string>
+        <string name="Heading4">Best Doggy</string>
+
+        //Descriptions
+        <string name="D1">cnjekvnjkjbrhrjrl</string>
+        <string name="D2">cnjekvnvrhbvrjjkjbrhrjrl</string>
+        <string name="D3">cnjekvnmvtkrbnhjkt bntbnjt nbtjkb jkjbrhrjrl</string>
+        <string name="D4">cnjek bntjnbtjk nbjtnbkt bnjtknbkt vnjkjbrhrjrl</string>
+        <string name="click_to_register">click_to_register</string>
+        <string name="login">click_to_login</string>
+        <string name="login2">Click to login</string>
+
+
+</resources>
